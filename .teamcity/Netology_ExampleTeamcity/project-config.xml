@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" parent-id="Netology" uuid="95befac1-fe1b-4a71-85bc-67459dd81ec2" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2025.3/project-config.xsd">
+  <name>Example Teamcity</name>
+  <project-extensions>
+    <extension id="PROJECT_EXT_2" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="ignoreChangesInDependenciesAndVcsSettings" value="false" />
+        <param name="rootId" value="Netology_ExampleTeamcity_HttpsGithubComQshar1408exampleTeamcityRefsHeadsMaster" />
+        <param name="showChanges" value="false" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_3" type="OAuthProvider">
+      <parameters>
+        <param name="clientId" value="Qshar1408" />
+        <param name="defaultTokenScope" value="public_repo,repo,repo:status,write:repo_hook" />
+        <param name="displayName" value="GitHub.com" />
+        <param name="gitHubUrl" value="https://github.com/" />
+        <param name="providerType" value="GitHub" />
+        <param name="secure:clientSecret" value="credentialsJSON:7b9a5101-b004-4431-8745-e96e91b2d341" />
+      </parameters>
+    </extension>
+  </project-extensions>
+</project>
+
