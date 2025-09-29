@@ -20,7 +20,7 @@
       </runner>
     </build-runners>
     <vcs-settings>
-      <vcs-entry-ref root-id="Netology_ExampleTeamcity_HttpsGithubComQshar1408exampleTeamcityRefsHeadsMaster" />
+      <vcs-entry-ref root-id="Netology_ExampleTeamcity_ExampleTeamcity" />
     </vcs-settings>
     <build-triggers>
       <build-trigger id="TRIGGER_1" type="vcsTrigger">
